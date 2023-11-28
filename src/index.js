@@ -1,13 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Weather from "./Weather";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "./Weather.css";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    <Weather />
+
+    <p>
+      Coded by Danielle Casa and open-sourced on
+      {"https://github.com/DCClara/react-weather-app"}
+    </p>
   </React.StrictMode>
 );
 
