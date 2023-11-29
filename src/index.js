@@ -12,10 +12,7 @@ root.render(
   <React.StrictMode>
     <App />
     <Weather />
-    <p>
-      Coded by Danielle Casa and open-sourced on{" "}
-      <a href="https://github.com/DCClara/react-weather-app">Github</a>
-    </p>
+    
   </React.StrictMode>
 );
 
