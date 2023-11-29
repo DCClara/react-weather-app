@@ -6,8 +6,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Live Weather</h1>
-        <Weather />
+        <h1 className="text-center">Live Weather</h1>
+        <Weather defaultCity="New York" />
         <footer>
           <p>
             Coded by Danielle Casa and open-sourced on{" "}
