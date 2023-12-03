@@ -28,11 +28,11 @@ export default function Weather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
 
   function handleCityChange(event) {
     setCity(event.target.value);
-    search();
   }
 
   if (weatherData.ready) {
@@ -66,7 +66,3 @@ export default function Weather(props) {
     return "Loading..";
   }
 }
-
-axios.get("/api/data").then(function (response) {
-  console.log(response);
-});
