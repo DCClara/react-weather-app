@@ -14,6 +14,7 @@ export default function App() {
             <a
               href="https://github.com/DCClara/react-weather-app"
               target="blank"
+              rel="noreferrer"
             >
               Github
             </a>
