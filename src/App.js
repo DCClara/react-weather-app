@@ -8,13 +8,17 @@ export default function App() {
       <div className="container">
         <h1 className="text-center">Live Weather</h1>
         <h6 className="text-center">
-          <i class="fa-brands fa-react"></i> with React
+          <i className="fa-brands fa-react"></i> with React
         </h6>
         <Weather defaultCity="New York" />
         <footer>
           <p>
             Coded by{" "}
-            <a href="https://www.shecodes.io/graduates/91341-danielle-casa">
+            <a
+              href="https://www.shecodes.io/graduates/91341-danielle-casa"
+              target="blank"
+              rel="noreferrer"
+            >
               Danielle Casa
             </a>{" "}
             and open-sourced on{" "}
