@@ -9,6 +9,15 @@
   margin-bottom: 5px;
 }
 
+.Weather .btn {
+  transition: ease-in 100ms;
+}
+.Weather .btn:hover {
+  color: #0D6EFD;
+  background-color: #ffffff;
+  
+}
+
 .Weather h1 {
   color: #878787;
   font-size: 24px;

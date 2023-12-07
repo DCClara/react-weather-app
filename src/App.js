@@ -10,7 +10,7 @@ export default function App() {
         <h6 className="text-center">
           created with <i className="fa-brands fa-react"></i>React
         </h6>
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Fort Lauderdale" />
         <footer>
           <p>
             Coded by{" "}
