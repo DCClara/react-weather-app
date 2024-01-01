@@ -3,6 +3,7 @@
   color: rgb(135, 135, 135);
   padding: 16px;
   border-radius: 4px;
+  background-color: #fee7c6;
 }
 
 .Weather form {
@@ -11,11 +12,11 @@
 
 .Weather .btn {
   transition: ease-in 100ms;
+  width: 100%;
 }
 .Weather .btn:hover {
-  color: #0D6EFD;
+  color: #0d6efd;
   background-color: #ffffff;
-  
 }
 
 .Weather h1 {
@@ -59,4 +60,16 @@
   position: relative;
   line-height: 1;
   top: -34px;
+}
+
+@media only screen and (max-width: 480px) {
+  .Weather .temperature {
+    font-size: 50px;
+  }
+  .Weather .unit {
+    font-size: 9px;
+  }
+  .Weather .btn {
+    font-size: 12px;
+  }
 }

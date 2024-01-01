@@ -1,6 +1,9 @@
 .App {
+  width: 100%;
   max-width: 600px;
-  margin: 30px auto;
+  margin: 100px auto;
+  
+  
 }
 .App h1 {
   font-size: 20px;
@@ -9,4 +12,9 @@
 .App footer {
   font-size: 14px;
   text-align: center;
-  margin-top: 30px;}
+  margin-top: 30px;
+  }
+.App footer a {
+  text-decoration: none;
+  color: blue;
+}
